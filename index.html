@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>aaa</h1>
-    <p>aaaa</p>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        <meta name="description" content="Uma página com a funcionalidade de contador para mais, menos e reset">
+        <meta name="keywords" content="incremento, decremento, reset">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Alexandre Lemes de Santana Filho">    
+
+        <link rel="stylesheet" href="src/css/style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="contador">
+            <div>
+                <button +id="mais" class="botao-contar">
+                    +
+                </button>
+            </div>
+
+            <span id="valor">
+                1000
+            </span>
+
+            <div>
+                <button id="menos" class="botao-contar">
+                    -
+                </button>
+            </div>
+
+            <button id="resetar">
+                Resetar
+            </button>
+        </div>
+        <script src="src/js/script.js"></script> 
+    </body>
 </html>
